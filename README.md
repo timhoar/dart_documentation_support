@@ -9,3 +9,5 @@ docker run -it -v `pwd`:/work timhoar/dart_docs
 cd /work/docs
 ford ford_config.md
 ~~~
+
+The docker image comes from https://cloud.docker.com/repository/docker/timhoar/dart_docs

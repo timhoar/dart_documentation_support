@@ -1,5 +1,7 @@
 ## dart_documentation_support
 
+The docker image comes from https://cloud.docker.com/repository/docker/timhoar/dart_docs
+
 container to run FORD to generate documentation for DART  
 Make sure docker is running - 
 
@@ -10,4 +12,12 @@ cd /work/docs
 ford ford_config.md
 ~~~
 
-The docker image comes from https://cloud.docker.com/repository/docker/timhoar/dart_docs
+Also - this container also supports `pandoc` - which can (among other things) convert html to md.
+
+https://pandoc.org/MANUAL.html
+
+The most trivial example would be:
+
+```
+pandoc -o bob.md bob.html
+```

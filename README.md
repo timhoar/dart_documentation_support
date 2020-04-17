@@ -12,6 +12,9 @@ cd /work/docs
 ford ford_config.md
 ~~~
 
+The best description of options for the FORD config are here:
+https://github.com/Fortran-FOSS-Programmers/ford/wiki/Project-File-Options
+
 Also - this container also supports `pandoc` - which can (among other things) convert html to md.
 
 https://pandoc.org/MANUAL.html
